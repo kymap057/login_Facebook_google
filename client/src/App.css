@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #99a0ad8a;
+  min-height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+button.btn-login {
+  width: 20%;
+}
+.kep-login-facebook.metro {
+  border-radius: 10px;
+  width: 20%;
+  height: 40px;
+  padding: 0;
+  font-size: 15px;
+  box-shadow: rgb(41 65 84 / 47%) 2px 3px 2px 0px, rgb(0 0 0 / 24%) 0px 0px 1px 0px;
+}
+.logout{
+  background-color: #ffff;
+}
+.logout:hover{
+  background-color: #f3d5d5;
+  cursor: pointer;
+}
+.table-user {
+  width: 100%;
+  margin-top: 30px;
+  border-top: 1px solid;
+}
+.table-user table {
+  width: 70%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+.table-user tr th, td {
+  border: 1px solid;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
